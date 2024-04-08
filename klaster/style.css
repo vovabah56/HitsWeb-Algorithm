@@ -1,0 +1,77 @@
+#klaster{
+    display: flex;
+    margin: auto;
+    width: 50%;
+}
+#canvas{
+    box-shadow: 0 7px 37px -5px #00C4F0;
+    width: 100%;
+}
+#canva {
+  width: 550px;
+}
+
+#buttons{
+width: 20%;
+margin-left: 10%;
+}
+.text{
+  margin: 0 0 -15px 5px;
+  font-size: 15px;
+}
+
+button, #sizeK  {
+  align-items: center;
+  text-align: center;
+  padding: 17px 0 17px 0;
+  margin-bottom: 8%;
+  width: 100%;
+    box-sizing: border-box;
+    -webkit-appearance: none;
+       -moz-appearance: none;
+            appearance: none;
+    background-color: transparent;
+    border: 2px solid #1b6170;
+    border-radius: 0.6em;
+    color: #fff;
+    cursor: pointer;
+    -webkit-align-self: center;
+        -ms-flex-item-align: center;
+            align-self: center;
+    font-size: 17px;
+    font-weight: 400;
+    line-height: 1;
+    text-decoration: none;
+    text-align: center;
+    text-transform: uppercase;
+    font-family: 'Montserrat', sans-serif;
+    font-weight: 700;
+    box-shadow: 0 0 40px 40px #1b6170 inset, 0 0 0 0 #1b6170;
+    transition: all 150ms ease-in-out;
+  }
+  button:hover, button:focus {
+    color: #fff;
+    outline: 0;
+  }
+  button:hover {
+    box-shadow: 0 0 10px 0 #0d6073 inset, 0 0 10px 4px #0d6073;
+  }
+  .crige{
+    width: 20%;
+  }
+  #scheme{
+    width: 80%;
+    display: none;
+  }
+  @media screen and (max-width: 970px), screen and (max-height: 500px) {
+    #canva{
+      width: 400px;
+  }
+  button{
+    font-size: 10px;
+  }
+  #klaster {
+
+    width: 60%;
+}
+  }
